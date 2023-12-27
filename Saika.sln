@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Saika", "Saika.WebUI\Saika.csproj", "{65F0A1CC-AB2A-4BA5-9226-3E948EFC5233}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebUI", "WebUI", "{F869EFD9-BC88-40F7-A430-DA72F9D9DD66}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{4F6BEDE6-9326-4F18-91D8-3A08E12E2B9A}"
+	ProjectSection(SolutionItems) = preProject
+		GlobalUsings.cs = GlobalUsings.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{B6ACD4AA-CDF8-44FD-B046-A75694399C2B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{8D4CDCE8-4C6B-4252-B6EF-4564CEE28061}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Saika.Application", "Saika.Application\Saika.Application.csproj", "{C0E629B9-0945-46A8-8688-47A4DF747016}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Saika.Domain", "Saika.Domain\Saika.Domain.csproj", "{4247FC69-FC88-4F85-8766-0B363DE0B79D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Saika.Infrastructure", "Saika.Infrastructure\Saika.Infrastructure.csproj", "{C6F7F2AD-1DF6-40C8-8E1F-C6ECDCDF39DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65F0A1CC-AB2A-4BA5-9226-3E948EFC5233}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65F0A1CC-AB2A-4BA5-9226-3E948EFC5233}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65F0A1CC-AB2A-4BA5-9226-3E948EFC5233}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65F0A1CC-AB2A-4BA5-9226-3E948EFC5233}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0E629B9-0945-46A8-8688-47A4DF747016}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0E629B9-0945-46A8-8688-47A4DF747016}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0E629B9-0945-46A8-8688-47A4DF747016}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0E629B9-0945-46A8-8688-47A4DF747016}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4247FC69-FC88-4F85-8766-0B363DE0B79D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4247FC69-FC88-4F85-8766-0B363DE0B79D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4247FC69-FC88-4F85-8766-0B363DE0B79D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4247FC69-FC88-4F85-8766-0B363DE0B79D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6F7F2AD-1DF6-40C8-8E1F-C6ECDCDF39DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6F7F2AD-1DF6-40C8-8E1F-C6ECDCDF39DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6F7F2AD-1DF6-40C8-8E1F-C6ECDCDF39DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6F7F2AD-1DF6-40C8-8E1F-C6ECDCDF39DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{65F0A1CC-AB2A-4BA5-9226-3E948EFC5233} = {F869EFD9-BC88-40F7-A430-DA72F9D9DD66}
+		{C0E629B9-0945-46A8-8688-47A4DF747016} = {B6ACD4AA-CDF8-44FD-B046-A75694399C2B}
+		{4247FC69-FC88-4F85-8766-0B363DE0B79D} = {4F6BEDE6-9326-4F18-91D8-3A08E12E2B9A}
+		{C6F7F2AD-1DF6-40C8-8E1F-C6ECDCDF39DB} = {8D4CDCE8-4C6B-4252-B6EF-4564CEE28061}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D1791915-7356-4249-9E2E-41B9E773B935}
+	EndGlobalSection
+EndGlobal
